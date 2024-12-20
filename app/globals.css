@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: linear-gradient(to right, #fbcfe8, #de403f);
+  --foreground: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #171717;
+    --foreground: #ffffff;
+  }
+}
+html,
+body {
+  scroll-behavior: auto;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.swiper-slide img {
+  @apply rounded-lg bg-paliGreen !important;
+}
+
+/* Style for the "Next" circle arrow */
+.swiper-button-next {
+  @apply w-6 h-10 bg-green-500 text-white rounded-full flex mt-32 shadow-lg !important;
+}
+
+/* Style for the "Previous" circle arrow */
+.swiper-button-prev {
+  @apply w-6 h-10 bg-green-500 text-white rounded-full flex mt-32 shadow-lg !important;
+}
+
+/* Hover effect for the circle arrows */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  @apply bg-pink-600 text-white !important;
+}
+
+/* Adjust inner content (optional, to add text or icon) */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  content: "";
+  font-size: 0.6rem !important; /* Adjust size */
+  color: white !important;
+}
+
+/* Optional: Add arrow icons to the circles */
+.swiper-button-next::after {
+  content: "→"; /* Or use a Unicode arrow or icon */
+  font-size: 0.6rem !important;
+}
+
+.swiper-button-prev::after {
+  content: "←"; /* Or use a Unicode arrow or icon */
+  font-size: 0.6rem !important;
+}
+
+/* Pagination Bullets */
+.swiper-pagination-bullet {
+  @apply w-2 h-2 bg-pink-600 rounded-full !important;
+  opacity: 1;
+}
+
