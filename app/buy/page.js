@@ -593,7 +593,7 @@ const BuyPage = () => {
               Connect your trusted crypto wallet to your account and making sure
               you have enough coins/tokens to swap or buy, remember to copy PALI
               Coin CONTRACT ADDRESS:{" "}
-              <span className="text-lg font-semibold text-pali-teal-dark">
+              <span className="text-paliGreen font-semibold break-all bg-gray-200 p-2 rounded-lg">
                 0xdf630b84f681c94f7cdbfb230479a0138692f264
               </span>{" "}
               <br />
@@ -651,6 +651,20 @@ const BuyPage = () => {
               private keys or seed phrases with anyone.
             </p>
           </div>
+        </div>
+        <div className="flex flex-col text-center justify-center mt-8 mb-10">
+          <p className="text-center p-2 text-gray-600 mb-5 mt-6">
+            🔻 Buy / Sell / Swap / Invest in PALI Coin 🔻
+          </p>
+          <a
+            href="https://www.sushi.com/polygon/swap?token0=0xc2132D05D31c914a87C6611C10748AEb04B58e8F&token1=0xDf630b84F681c94f7cdbfB230479a0138692F264"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="w-1/3 inline-block min-w-[70px] px-6 py-3 text-white font-bold text-center rounded-lg bg-gradient-to-r from-paliPink to-pali-teal transition-all duration-300 hover:scale-105 hover:bg-gradient-to-l hover:from-paliPinkDark hover:to-pali-teal-dark text-xl">
+              Buy PALI
+            </button>
+          </a>
         </div>
       </div>
     </>
