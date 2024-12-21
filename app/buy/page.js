@@ -136,81 +136,41 @@ const BuyPage = () => {
           </div>
           <div>
             <div className="grid gap-3">
-              <h3 className="text-lg font-semibold text-gray-800">
-                Centralized Exchanges (CEX):
+              <h3 className="text-lg pl-2 font-semibold text-gray-800 ">
+                Find PALI Coin 🪙 on Decentralized Exchanges (DEX Platforms):
               </h3>
               <ul className="list-disc ml-8 text-gray-700">
                 <li>
                   <Link
-                    href="https://www.binance.com/"
+                    href="https://quickswap.exchange/#/swap?outputCurrency=0xdf630b84f681c94f7cdbfb230479a0138692f264&swapIndex=0"
                     className="text-paliPink"
                   >
-                    Binance{" "}
-                    <span className="text-paliGreen">
-                      https://www.binance.com/
-                    </span>{" "}
+                    QuickSwap Link 🔗
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href=" https://www.kucoin.com/"
+                    href="https://app.uniswap.org/explore/tokens/polygon/0xdf630b84f681c94f7cdbfb230479a0138692f264"
                     className="text-paliPink"
                   >
-                    KuCoin{" "}
-                    <span className="text-paliGreen">
-                      https://www.kucoin.com/
-                    </span>{" "}
+                    Uniswap Link 🔗
                   </Link>
                 </li>
                 <li>
-                  <Link href="https://www.gate.io/" className="text-paliPink">
-                    Gate{" "}
-                    <span className="text-paliGreen">https://www.gate.io/</span>{" "}
+                  <Link
+                    href="https://www.sushi.com/polygon/swap?token0=0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619&token1=0xDf630b84F681c94f7cdbfB230479a0138692F264"
+                    className="text-paliPink"
+                  >
+                    Sushiswap Link 🔗
                   </Link>
                 </li>
-                <li>
-                  <Link href="https://crypto.com/" className="text-paliPink">
-                    Crypto{" "}
-                    <span className="text-paliGreen">https://crypto.com/</span>{" "}
-                  </Link>
-                </li>
-              </ul>
 
-              <h3 className="text-lg font-semibold text-gray-800 ">
-                Decentralized Exchanges (DEX):
-              </h3>
-              <ul className="list-disc ml-8 text-gray-700">
                 <li>
                   <Link
-                    href="https://quickswap.exchange/#/"
+                    href="https://coinmarketcap.com/dexscan/polygon/0xbd5716bacdafb8d6fd90882cc05fe7d1eeb86fe8/"
                     className="text-paliPink"
                   >
-                    QuickSwap{" "}
-                    <span className="text-paliGreen">
-                      https://quickswap.exchange/#/
-                    </span>{" "}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="https://app.uniswap.org/swap"
-                    className="text-paliPink"
-                  >
-                    Uniswap{" "}
-                    <span className="text-paliGreen">
-                      https://app.uniswap.org/swap
-                    </span>{" "}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="https://www.sushi.com/ethereum/swap"
-                    className="text-paliPink"
-                  >
-                    Sushiswap{" "}
-                    <span className="text-paliGreen">
-                      https://www.sushi.com/ethereum/swap
-                    </span>{" "}
+                    CoinMarketCap Link 🔗
                   </Link>
                 </li>
               </ul>
@@ -652,19 +612,120 @@ const BuyPage = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col text-center justify-center mt-8 mb-10">
+
+        {/* <div className="flex flex-col items-center justify-center mt-8 mb-10">
           <p className="text-center p-2 text-gray-600 mb-5 mt-6">
             🔻 Buy / Sell / Swap / Invest in PALI Coin 🔻
           </p>
-          <a
-            href="https://www.sushi.com/polygon/swap?token0=0xc2132D05D31c914a87C6611C10748AEb04B58e8F&token1=0xDf630b84F681c94f7cdbfB230479a0138692F264"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button className="w-1/3 inline-block min-w-[70px] px-6 py-3 text-white font-bold text-center rounded-lg bg-gradient-to-r from-paliPink to-pali-teal transition-all duration-300 hover:scale-105 hover:bg-gradient-to-l hover:from-paliPinkDark hover:to-pali-teal-dark text-xl">
-              Buy PALI
-            </button>
-          </a>
+          <div className="flex flex-wrap justify-center gap-4 bg-gradient-to-r from-paliPink to-pali-teal p-4 rounded-lg">
+            <div className="rounded-lg p-1 shadow-md">
+              {" "}
+              <a
+                href="https://www.sushi.com/polygon/swap?token0=0xc2132D05D31c914a87C6611C10748AEb04B58e8F&token1=0xDf630b84F681c94f7cdbfB230479a0138692F264"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                <abbr title="Buy - sell - swap PALI Coin on SushiSwap">
+                  <button className="px-6 py-2 text-white font-semibold text-center rounded-lg bg-transparent hover:scale-105 text-xl">
+                    SushiSwap
+                  </button>
+                </abbr>
+              </a>
+            </div>{" "}
+            <div className="rounded-lg p-1 shadow-md">
+              <a
+                href="https://quickswap.exchange/#/swap?outputCurrency=0xdf630b84f681c94f7cdbfb230479a0138692f264&swapIndex=0"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                <abbr title="Buy - sell - swap PALI Coin on QuickSwap">
+                  <button className="px-6 py-2 text-white font-semibold text-center rounded-lg bg-transparent hover:scale-105 text-xl">
+                    {" "}
+                    QuickSwap
+                  </button>
+                </abbr>
+              </a>
+            </div>{" "}
+            <div className="rounded-lg p-1 shadow-md">
+              <a
+                href="https://app.uniswap.org/explore/tokens/polygon/0xdf630b84f681c94f7cdbfb230479a0138692f264"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                <abbr title="Buy - sell - swap PALI Coin on UniSwap">
+                  <button className="px-6 py-2 text-white font-semibold text-center rounded-lg bg-transparent hover:scale-105 text-xl">
+                    {" "}
+                    UniSwap
+                  </button>
+                </abbr>
+              </a>
+            </div>{" "}
+            <div className="rounded-lg p-1 shadow-md">
+              <a
+                href="https://coinmarketcap.com/dexscan/polygon/0xbd5716bacdafb8d6fd90882cc05fe7d1eeb86fe8"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                <abbr title="Check PALI Coin Price on CoinMarketCap">
+                  <button className="px-6 py-2 text-white font-semibold text-center rounded-lg bg-transparent hover:scale-105 text-xl">
+                    {" "}
+                    CoinMarketCap
+                  </button>
+                </abbr>
+              </a>
+            </div>
+          </div>
+        </div> */}
+        <div className="flex flex-col items-center justify-center mt-8 mb-10">
+          <p className="text-center p-2 text-gray-600 mb-5 mt-6">
+            🔻 Buy / Sell / Swap / Invest in PALI Coin 🔻
+          </p>
+          <div className="flex flex-wrap justify-center gap-6 bg-gradient-to-r from-paliPink to-pali-teal p-6 rounded-lg shadow-lg">
+            {[
+              {
+                name: "SushiSwap",
+                href: "https://www.sushi.com/polygon/swap?token0=0xc2132D05D31c914a87C6611C10748AEb04B58e8F&token1=0xDf630b84F681c94f7cdbfB230479a0138692F264",
+                title: "Buy - sell - swap PALI Coin on SushiSwap",
+                icon: "🍣",
+              },
+              {
+                name: "QuickSwap",
+                href: "https://quickswap.exchange/#/swap?outputCurrency=0xdf630b84f681c94f7cdbfb230479a0138692f264&swapIndex=0",
+                title: "Buy - sell - swap PALI Coin on QuickSwap",
+                icon: "⚡",
+              },
+              {
+                name: "UniSwap",
+                href: "https://app.uniswap.org/explore/tokens/polygon/0xdf630b84f681c94f7cdbfb230479a0138692f264",
+                title: "Buy - sell - swap PALI Coin on UniSwap",
+                icon: "🔄",
+              },
+              {
+                name: "CoinMarketCap",
+                href: "https://coinmarketcap.com/dexscan/polygon/0xbd5716bacdafb8d6fd90882cc05fe7d1eeb86fe8",
+                title: "Check PALI Coin Price on CoinMarketCap",
+                icon: "📈",
+              },
+            ].map(({ name, href, title, icon }) => (
+              <div
+                key={name}
+                className="rounded-lg shadow-lg hover:shadow-sm transition-shadow duration-300"
+              >
+                <a href={href} target="_blank" rel="noopener noreferrer">
+                  <abbr title={title} className="no-underline">
+                    <button className="flex items-center gap-2 px-8 py-3 text-white font-semibold text-center rounded-lg  hover:scale-105 hover:from-paliPinkDark hover:to-pali-teal-dark text-lg transition-all duration-300">
+                      <span className="text-xl">{icon}</span>
+                      {name}
+                    </button>
+                  </abbr>
+                </a>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </>
