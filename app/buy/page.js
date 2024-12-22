@@ -599,7 +599,15 @@ const BuyPage = () => {
                 or Trezor for added security.
               </li>
             </ul>
-
+            <div className="mt-10 mb-10 h-[300px] sm:h-[600px] md:h-[800px] relative">
+              <Image
+                src="/images/report.png"
+                alt="PALI Coin Logo"
+                fill
+                sizes="100vw"
+                className=" rounded-lg"
+              />
+            </div>
             {/* Disclaimer */}
             <h2 className="text-lg font-semibold text-gray-800 mt-6 mb-4">
               🚨 Disclaimer
@@ -613,73 +621,6 @@ const BuyPage = () => {
           </div>
         </div>
 
-        {/* <div className="flex flex-col items-center justify-center mt-8 mb-10">
-          <p className="text-center p-2 text-gray-600 mb-5 mt-6">
-            🔻 Buy / Sell / Swap / Invest in PALI Coin 🔻
-          </p>
-          <div className="flex flex-wrap justify-center gap-4 bg-gradient-to-r from-paliPink to-pali-teal p-4 rounded-lg">
-            <div className="rounded-lg p-1 shadow-md">
-              {" "}
-              <a
-                href="https://www.sushi.com/polygon/swap?token0=0xc2132D05D31c914a87C6611C10748AEb04B58e8F&token1=0xDf630b84F681c94f7cdbfB230479a0138692F264"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                <abbr title="Buy - sell - swap PALI Coin on SushiSwap">
-                  <button className="px-6 py-2 text-white font-semibold text-center rounded-lg bg-transparent hover:scale-105 text-xl">
-                    SushiSwap
-                  </button>
-                </abbr>
-              </a>
-            </div>{" "}
-            <div className="rounded-lg p-1 shadow-md">
-              <a
-                href="https://quickswap.exchange/#/swap?outputCurrency=0xdf630b84f681c94f7cdbfb230479a0138692f264&swapIndex=0"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                <abbr title="Buy - sell - swap PALI Coin on QuickSwap">
-                  <button className="px-6 py-2 text-white font-semibold text-center rounded-lg bg-transparent hover:scale-105 text-xl">
-                    {" "}
-                    QuickSwap
-                  </button>
-                </abbr>
-              </a>
-            </div>{" "}
-            <div className="rounded-lg p-1 shadow-md">
-              <a
-                href="https://app.uniswap.org/explore/tokens/polygon/0xdf630b84f681c94f7cdbfb230479a0138692f264"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                <abbr title="Buy - sell - swap PALI Coin on UniSwap">
-                  <button className="px-6 py-2 text-white font-semibold text-center rounded-lg bg-transparent hover:scale-105 text-xl">
-                    {" "}
-                    UniSwap
-                  </button>
-                </abbr>
-              </a>
-            </div>{" "}
-            <div className="rounded-lg p-1 shadow-md">
-              <a
-                href="https://coinmarketcap.com/dexscan/polygon/0xbd5716bacdafb8d6fd90882cc05fe7d1eeb86fe8"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                <abbr title="Check PALI Coin Price on CoinMarketCap">
-                  <button className="px-6 py-2 text-white font-semibold text-center rounded-lg bg-transparent hover:scale-105 text-xl">
-                    {" "}
-                    CoinMarketCap
-                  </button>
-                </abbr>
-              </a>
-            </div>
-          </div>
-        </div> */}
         <div className="flex flex-col items-center justify-center mt-8 mb-10">
           <p className="text-center p-2 text-gray-600 mb-5 mt-6">
             🔻 Buy / Sell / Swap / Invest in PALI Coin 🔻
