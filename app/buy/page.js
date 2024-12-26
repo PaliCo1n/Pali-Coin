@@ -619,13 +619,25 @@ const BuyPage = () => {
               private keys or seed phrases with anyone.
             </p>
           </div>
+          <div className="mt-10 mb-10 h-[300px] sm:h-[600px] md:h-[800px] relative">
+            <iframe
+              className="rounded-lg"
+              height="100%"
+              width="100%"
+              id="geckoterminal-embed"
+              title="GeckoTerminal Embed"
+              src="https://www.geckoterminal.com/polygon_pos/pools/0x47f2d0972b143086a647394fcfcd8c13bd5219ef?embed=1&info=1&swaps=1&grayscale=0&light_chart=0"
+              allow="clipboard-write"
+              allowFullScreen
+            ></iframe>
+          </div>
         </div>
 
         <div className="flex flex-col items-center justify-center mt-8 mb-10">
           <p className="text-center p-2 text-gray-600 mb-5 mt-6">
             🔻 Buy / Sell / Swap / Invest in PALI Coin 🔻
           </p>
-          <div className="flex flex-wrap justify-center gap-6 bg-gradient-to-r from-paliPink to-pali-teal p-6 rounded-lg shadow-lg">
+          <div className="flex flex-wrap justify-center gap-2 bg-gradient-to-r from-paliPink to-pali-teal p-6 rounded-lg shadow-lg">
             {[
               {
                 name: "SushiSwap",
@@ -651,6 +663,12 @@ const BuyPage = () => {
                 title: "Check PALI Coin Price on CoinMarketCap",
                 icon: "📈",
               },
+              {
+                name: "GeckoTerminal",
+                href: "https://www.geckoterminal.com/polygon_pos/pools/0x47f2d0972b143086a647394fcfcd8c13bd5219ef",
+                title: "Check PALI Coin Trades on GeckoTerminal",
+                icon: "📊",
+              },
             ].map(({ name, href, title, icon }) => (
               <div
                 key={name}
@@ -658,8 +676,8 @@ const BuyPage = () => {
               >
                 <a href={href} target="_blank" rel="noopener noreferrer">
                   <abbr title={title} className="no-underline">
-                    <button className="flex items-center gap-2 px-8 py-3 text-white font-semibold text-center rounded-lg  hover:scale-105 hover:from-paliPinkDark hover:to-pali-teal-dark text-lg transition-all duration-300">
-                      <span className="text-xl">{icon}</span>
+                    <button className="flex items-center gap-2 px-4 py-3 text-white font-semibold text-center rounded-lg  hover:scale-105 hover:from-paliPinkDark hover:to-pali-teal-dark text-md transition-all duration-300">
+                      <span className="text-md">{icon}</span>
                       {name}
                     </button>
                   </abbr>
