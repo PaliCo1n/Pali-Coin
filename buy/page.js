@@ -627,9 +627,9 @@ const BuyPage = () => {
               id="geckoterminal-embed"
               title="GeckoTerminal Embed"
               src="https://www.geckoterminal.com/polygon_pos/pools/0x47f2d0972b143086a647394fcfcd8c13bd5219ef?embed=1&info=1&swaps=1&grayscale=0&light_chart=0"
-              frameborder="0"
+              frameBorder="0"
               allow="clipboard-write"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </div>
         </div>
