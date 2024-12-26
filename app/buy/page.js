@@ -173,6 +173,15 @@ const BuyPage = () => {
                     CoinMarketCap Link 🔗
                   </Link>
                 </li>
+
+                <li>
+                  <Link
+                    href="https://www.geckoterminal.com/polygon_pos/pools/0x47f2d0972b143086a647394fcfcd8c13bd5219ef"
+                    className="text-paliPink"
+                  >
+                    Geckoterminal Link 🔗
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
