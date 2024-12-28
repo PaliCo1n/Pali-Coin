@@ -167,13 +167,13 @@ const WhitepaperPart4 = () => {
           ensuring that it is widely accepted and used.
         </p>
       </section>
-      <div className="h-[300px] sm:h-[400px] md:h-[600px] relative">
+      <div className="h-[300px] sm:h-[400px] md:h-[500px] relative">
         <Image
           src="/images/3.jpg"
           alt="PALI Coin Logo"
           fill
           sizes="100vw"
-          className="object-contain rounded-lg"
+          className="rounded-lg"
         />
       </div>
       <section className="my-4">
@@ -420,8 +420,36 @@ const WhitepaperPart4 = () => {
           </tbody>
         </table>
       </section>
+      <section>
+        {/* Goal List */}
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-3xl font-semibold font-poiret-one text-center text-pali-teal-dark mt-8">
+            Mission & Goals{" "}
+            <div className="h-[120px] sm:h-[150px] md:h-[200px] relative">
+              <Image
+                src="/images/goal1.png"
+                alt="PALI Coin Logo"
+                fill
+                sizes="100vw"
+                className="object-contain rounded-lg"
+              />
+            </div>
+          </h2>
 
-      <section className="my-4">
+          {/* Goal List */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-10">
+            {goals.map((goal, index) => (
+              <div key={index} className="bg-paliPink p-6 shadow-lg rounded-lg">
+                <h3 className="text-xl font-semibold font-poiret-one text-center bg-gradient-to-r from-gray-600 via-gray-600 to-gray-900 text-transparent bg-clip-text shadow-soft mb-4">
+                  {goal.title}
+                </h3>
+                <p>{goal.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      <section className="my-4 px-4 ">
         <p className="text-left p-2 text-lg font-bold text-paliGreen">
           Conclusion
         </p>
@@ -471,3 +499,52 @@ const WhitepaperPart4 = () => {
 };
 
 export default WhitepaperPart4;
+
+// Array of goals
+const goals = [
+  {
+    title: "Community Empowerment",
+    description:
+      "To create a decentralized token that empowers Palestinians globally, providing financial inclusion and participation in the crypto economy.",
+  },
+  {
+    title: "Supporting Palestinian Causes",
+    description:
+      "A portion of each transaction will support humanitarian projects that benefit Palestinian refugees, healthcare, and education.",
+  },
+  {
+    title: "Building a Palestinian Ecosystem",
+    description:
+      "Fostering a decentralized ecosystem of Palestinian businesses and individuals to transact using the Palestinian token.",
+  },
+  {
+    title: "Social Impact and Charity",
+    description:
+      "Fund charitable causes in Palestine, focusing on rebuilding infrastructure, supporting schools, and medical initiatives.",
+  },
+  {
+    title: "Education and Awareness",
+    description:
+      "Raise global awareness about Palestinian culture and history through NFT campaigns and educational initiatives.",
+  },
+  {
+    title: "Tokenomics for Sustainability",
+    description:
+      "Design a sustainable tokenomics model to ensure long-term growth and prevent inflation of the Palestinian token.",
+  },
+  {
+    title: "Partnerships and Global Recognition",
+    description:
+      "Form partnerships with exchanges, platforms, and charitable organizations to amplify the token's impact and reach globally.",
+  },
+  {
+    title: "Creating Job Opportunities",
+    description:
+      "Enable Palestinians to join the blockchain ecosystem by offering job opportunities in development, entrepreneurship, and content creation.",
+  },
+  {
+    title: "Peace and Unity",
+    description:
+      "Promote peace, unity, and collaboration between different communities through the Palestinian token, symbolizing hope and progress.",
+  },
+];

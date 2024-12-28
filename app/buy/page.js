@@ -124,7 +124,7 @@ const BuyPage = () => {
             <h2 className="text-lg font-semibold mb-3 text-paliGreen">
               📲 Trusted Platforms to Buy and Swap PALI Coin
             </h2>
-            <div className="h-[300px] sm:h-[600px] md:h-[800px] relative">
+            <div className="h-[300px] sm:h-[400px] md:h-[500px] relative">
               <Image
                 src="/images/platforms.png"
                 alt="PALI Coin Logo"
@@ -578,13 +578,13 @@ const BuyPage = () => {
             <h2 className="text-lg font-semibold text-paliPink mb-4">
               SECURING YOUR ASSETS
             </h2>
-            <div className="h-[300px] sm:h-[600px] md:h-[800px] relative">
+            <div className="h-[300px] sm:h-[400px] md:h-[500px] relative mb-4 rounded-lg">
               <Image
                 src="/images/safe.png"
                 alt="PALI Coin Logo"
                 fill
                 sizes="100vw"
-                className="object-contain rounded-lg"
+                className=" rounded-lg"
               />
             </div>
             <p className="text-gray-700 mb-4 leading-7">

@@ -143,13 +143,13 @@ const WhitepaperPart3 = () => {
         as low transaction fees for early adopters, rewards for referring new
         users, and partnerships with businesses to accept PALI Coin as payment.
       </p>
-      <div className="h-[300px] sm:h-[400px] md:h-[600px] relative">
+      <div className="h-[200px] sm:h-[300px] md:h-[400px] relative">
         <Image
           src="/images/olives.jpg"
           alt="PALI Coin Logo"
           fill
           sizes="100vw"
-          className="object-contain rounded-lg"
+          className="rounded-lg"
         />
       </div>
     </div>
