@@ -3,6 +3,7 @@
 
 Launched on 20-12-2024, **PALI Coin** is a decentralized digital currency designed to promote financial inclusivity and stability, with a focus on the Palestinian economy. Built on the **Polygon network**, PALI Coin provides a fast, secure, and low-cost means of conducting transactions for everyday use, investment, or remittance purposes.
 Contract Address: 0xDf630b84F681c94f7cdbfB230479a0138692F264
+
 ---
 
 ## 🚀 About PALI Coin  
