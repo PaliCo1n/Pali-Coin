@@ -651,7 +651,7 @@ const BuyPage = () => {
             {[
               {
                 name: "SushiSwap",
-                href: "https://www.sushi.com/polygon/swap?token0=0xc2132D05D31c914a87C6611C10748AEb04B58e8F&token1=0xDf630b84F681c94f7cdbfB230479a0138692F264",
+                href: "https://www.sushi.com/polygon/swap?token0=NATIVE&token1=0xDf630b84F681c94f7cdbfB230479a0138692F264",
                 title: "Buy - sell - swap PALI Coin on SushiSwap",
                 icon: "🍣",
               },
@@ -669,13 +669,13 @@ const BuyPage = () => {
               },
               {
                 name: "CoinMarketCap",
-                href: "https://coinmarketcap.com/dexscan/polygon/0xbd5716bacdafb8d6fd90882cc05fe7d1eeb86fe8",
+                href: "https://coinmarketcap.com/dexscan/polygon/0xb6a3ec4e731f9be1f16e289c20a9411bb538d59d/",
                 title: "Check PALI Coin Price on CoinMarketCap",
                 icon: "📈",
               },
               {
                 name: "GeckoTerminal",
-                href: "https://www.geckoterminal.com/polygon_pos/pools/0x47f2d0972b143086a647394fcfcd8c13bd5219ef",
+                href: "https://www.geckoterminal.com/polygon_pos/pools/0xb6a3ec4e731f9be1f16e289c20a9411bb538d59d",
                 title: "Check PALI Coin Trades on GeckoTerminal",
                 icon: "📊",
               },
