@@ -58,6 +58,7 @@ Enable Palestinians to join the blockchain space through job creation in develop
 Symbolize hope and collaboration across communities through the Palestinian token.  
 
 ---
+![PALI Coin Logo](./PALICoin.png)
 
 ## 📄 Contact and Further Information  
 - **Website**: [www.palicoin.uk](https://www.palicoin.uk)  
