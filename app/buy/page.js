@@ -635,9 +635,10 @@ const BuyPage = () => {
               width="100%"
               id="geckoterminal-embed"
               title="GeckoTerminal Embed"
-              src="https://www.geckoterminal.com/polygon_pos/pools/0x47f2d0972b143086a647394fcfcd8c13bd5219ef?embed=1&info=1&swaps=1&grayscale=0&light_chart=0"
+              src="https://www.geckoterminal.com/polygon_pos/pools/0xb6a3ec4e731f9be1f16e289c20a9411bb538d59d?embed=1&info=1&swaps=1&grayscale=0&light_chart=0"
+              frameborder="0"
               allow="clipboard-write"
-              allowFullScreen
+              allowfullscreen
             ></iframe>
           </div>
         </div>
