@@ -1,14 +1,34 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const menuRef = useRef(null);
+  const toggleButtonRef = useRef(null);
+
+  // Close menu on outside click
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (
+        menuRef.current &&
+        !menuRef.current.contains(event.target) &&
+        toggleButtonRef.current &&
+        !toggleButtonRef.current.contains(event.target)
+      ) {
+        setIsMenuOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <nav className="bg-gradient-pinki font-poppins text-white p-4 shadow-md sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto flex justify-between items-center">
+      <div className="flex justify-between items-center w-full px-4">
         {/* Logo */}
         <div className="flex items-center">
           <Image
@@ -29,22 +49,22 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex">
+        <div className="hidden md:flex space-x-6">
           <Link
             href="/"
-            className="mx-4 hover:text-gray-600 hover:font-semibold transition-colors duration-200 font-poppins"
+            className="hover:text-gray-600 font-medium transition-colors duration-200 font-poppins"
           >
             Home
           </Link>
           <Link
             href="/about"
-            className="mx-4 hover:text-gray-600 hover:font-semibold transition-colors duration-200 font-poppins"
+            className="hover:text-gray-600 font-medium transition-colors duration-200 font-poppins"
           >
             About
           </Link>
           <Link
             href="/buy"
-            className="mx-4 transition-colors duration-200 hover:text-gray-600 hover:font-semibold font-poppins"
+            className="transition-colors duration-200 font-medium hover:text-gray-600 font-poppins"
           >
             Buy PALI
           </Link>
@@ -53,7 +73,8 @@ const Navbar = () => {
         {/* Hamburger Menu for Mobile */}
         <div className="md:hidden">
           <button
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            ref={toggleButtonRef}
+            onClick={() => setIsMenuOpen((prev) => !prev)}
             className="text-white"
           >
             <svg
@@ -76,22 +97,25 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="mt-2 bg-gradient-to-b from-paliPink to-paliGreen md:hidden">
+        <div ref={menuRef} className="mt-2  md:hidden font-semibold">
           <Link
             href="/"
-            className="block py-2 px-4 text-white hover:bg-pink-800"
+            onClick={() => setIsMenuOpen(false)}
+            className="block py-2 px-4  text-white hover:bg-paliPink"
           >
             Home
           </Link>
           <Link
             href="/about"
-            className="block py-2 px-4 text-white hover:bg-pink-800"
+            onClick={() => setIsMenuOpen(false)}
+            className="block py-2 px-4 text-white  hover:bg-paliPink"
           >
             About
           </Link>
           <Link
             href="/buy"
-            className="block py-2 px-4 text-white hover:bg-pink-800"
+            onClick={() => setIsMenuOpen(false)}
+            className="block py-2 px-4 text-white  hover:bg-paliPink"
           >
             Buy PALI
           </Link>
