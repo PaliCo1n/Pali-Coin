@@ -167,7 +167,7 @@ const BuyPage = () => {
 
                 <li>
                   <Link
-                    href="https://coinmarketcap.com/dexscan/polygon/0xbd5716bacdafb8d6fd90882cc05fe7d1eeb86fe8/"
+                    href="https://coinmarketcap.com/dexscan/polygon/0xb6a3ec4e731f9be1f16e289c20a9411bb538d59d/"
                     className="text-paliPink"
                   >
                     CoinMarketCap Link 🔗
@@ -176,7 +176,7 @@ const BuyPage = () => {
 
                 <li>
                   <Link
-                    href="https://www.geckoterminal.com/polygon_pos/pools/0x47f2d0972b143086a647394fcfcd8c13bd5219ef"
+                    href="https://www.geckoterminal.com/polygon_pos/pools/0xb6a3ec4e731f9be1f16e289c20a9411bb538d59d"
                     className="text-paliPink"
                   >
                     Geckoterminal Link 🔗
