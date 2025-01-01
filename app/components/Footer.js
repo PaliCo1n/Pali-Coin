@@ -28,7 +28,7 @@ const Footer = () => {
           </p>
           <div className="mt-4 flex justify-center space-x-4">
             <a
-              href="https://github.com/devMoAli"
+              href="https://github.com/PaliCo1n/Pali-Coin"
               className="text-orange-300 font-semibold hover:text-indigo-800"
             >
               <i className="fab fa-github"></i> GitHub
