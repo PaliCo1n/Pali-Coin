@@ -2,6 +2,7 @@ import { Geist, Geist_Mono, Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Head from "next/head";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,8 +19,9 @@ const poppins = Poppins({
   variable: "--font-poppins",
 });
 export const metadata = {
-  title: "PALI Coin 🪙🇵🇸✅",
-  description: "Empowering Palestinians Freedom Through Blockchain",
+  title: "PALI Coin 🍉",
+  description:
+    "Empowering Palestinians Financial Ecosystem Through Blockchain Worldwide",
 };
 
 export default function RootLayout({ children }) {
@@ -30,6 +32,18 @@ export default function RootLayout({ children }) {
       >
         <div className="flex flex-1 flex-col">
           <Navbar />
+          <Head>
+            <meta
+              property="og:image"
+              content="https://gateway.pinata.cloud/ipfs/bafybeibzl35swhnbifmtu56eypslb7atnboxxhkkgqgyjejpf44f6vnehy/pali-logo.png"
+            />
+            <meta property="og:title" content="PALI Coin 🍉" />
+            <meta
+              property="og:description"
+              content="Empowering Palestinians Financial Ecosystem Through Blockchain Worldwide"
+            />
+            <meta property="og:url" content="https://palicoin.uk" />
+          </Head>
           {/* Main content area */}
           <main className="flex-1">{children}</main>
           <Footer />
