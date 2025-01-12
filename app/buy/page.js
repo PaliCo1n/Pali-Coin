@@ -26,6 +26,22 @@ const BuyPage = () => {
             </span>{" "}
             <br></br>
           </div>
+          <div className="mb-8 mt-8 text-center">
+            <h1 className="text-lg sm:text-4xl font-bold bg-gradient-to-r from-paliPink via-gray-400 to-paliGreen text-transparent bg-clip-text shadow-soft mb-4 font-poppins">
+              Get your PALI Coin from Presale now
+            </h1>
+          </div>{" "}
+          <div className="mt-10 mb-10 h-[300px] sm:h-[600px] md:h-[800px] relative">
+            <iframe
+              className="rounded-lg"
+              height="100%"
+              width="100%"
+              id="geckoterminal-embed"
+              title="GeckoTerminal Embed"
+              src="https://www.pinksale.finance/launchpad/polygon/0x302cD938EF8Fab1aFa49F76F654e241DB6EEab77"
+              allow="clipboard-write"
+            ></iframe>
+          </div>
           <div className="mt-4">
             {" "}
             <span className="text-gray-700 ">
