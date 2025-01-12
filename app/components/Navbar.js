@@ -32,7 +32,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center">
           <Image
-            src="/images/logo.png"
+            src="/images/palicoin.png"
             alt="PALI Coin Logo"
             width={30}
             height={30}
