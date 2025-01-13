@@ -15,12 +15,12 @@ const LandingPage = () => {
         <title>PALI Coin - The Trusted Palestinian Cryptocurrency</title>
         <meta
           name="description"
-          content="PALI Coin is a decentralized digital currency built on the Polygon network for palestinians"
+          content="Empowering Palestinians Financial Ecosystem Through Blockchain Worldwide"
         />
         <meta property="og:title" content="PALI Coin" />
         <meta
           property="og:description"
-          content="PALI Coin is a decentralized digital currency built on the Polygon network."
+          content="Empowering Palestinians Financial Ecosystem Through Blockchain Worldwide"
         />
         <meta property="og:image" content="/favicon/icon.png" />
 

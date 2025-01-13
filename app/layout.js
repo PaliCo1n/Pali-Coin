@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
           <Head>
             <meta
               property="og:image"
-              content="https://gateway.pinata.cloud/ipfs/bafybeibzl35swhnbifmtu56eypslb7atnboxxhkkgqgyjejpf44f6vnehy/pali-logo.png"
+              content="ipfs://bafybeiathvy24em7gdmwlxhr2xe76h35ni7l7zeax2xeyrtsp23pcrvrum/palicoin.png"
             />
             <meta property="og:title" content="PALI Coin 🍉" />
             <meta
