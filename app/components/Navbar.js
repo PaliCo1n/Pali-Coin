@@ -27,7 +27,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="bg-gradient-pinki font-poppins text-white p-4 shadow-md sticky top-0 z-50">
+    <nav className="bg-gradient-pinki font-poppins text-white p-4 sticky top-0 z-50">
       <div className="flex justify-between items-center w-full px-4">
         {/* Logo */}
         <div className="flex items-center">
@@ -39,7 +39,7 @@ const Navbar = () => {
             className="mr-2"
           />
           <Link href="/" className="flex items-center text-2xl font-bold">
-            <span className="text-2xl text-shadow-soft">
+            <span className="text-2xl">
               <span className="text-paliGreen text-4xl">P</span>
               <span className="text-paliPinkDark">A</span>
               <span className="text-black">L</span>

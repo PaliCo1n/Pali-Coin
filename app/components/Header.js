@@ -93,10 +93,10 @@ import ImageCarousel from "./Swiper";
 const Header = () => {
   return (
     <div>
-      <header className="bg-gradient-pinki py-10 font-poppins shadow-sm relative">
+      <header className="bg-gradient-pinki py-10 font-poppins relative">
         {/* Main Title and Logo */}
         <div className="flex flex-col md:flex-row items-center md:items-start ml-4 md:ml-8">
-          <h1 className="mb-4 text-2xl md:text-3xl font-extrabold text-gray-900 dark:text-white lg:text-5xl shadow-soft text-center md:text-left">
+          <h1 className="mb-4 text-2xl md:text-3xl font-extrabold text-gray-900 dark:text-white lg:text-5xl  text-center md:text-left">
             <span className="text-transparent bg-clip-text bg-gradient-to-r to-paliGreen from-sky-400">
               Welcome to
             </span>{" "}
@@ -119,7 +119,7 @@ const Header = () => {
         {/* Content and Carousel */}
         <div className="px-4 md:px-10 flex flex-col md:flex-row items-center md:items-start">
           <div className="flex flex-col md:w-1/2">
-            <p className="text-lg md:text-2xl font-semibold font-poiret-one leading-relaxed mt-6 mb-6 text-center md:text-left max-w-full bg-gradient-to-r from-gray-400 via-gray-600 to-gray-900 text-transparent bg-clip-text shadow-soft">
+            <p className="text-lg md:text-2xl font-semibold font-poiret-one leading-relaxed mt-6 mb-6 text-center md:text-left max-w-full bg-gradient-to-r from-gray-400 via-gray-600 to-gray-900 text-transparent bg-clip-text ">
               Empowering Palestinians Financial Ecosystem Through Blockchain
               Worldwide
             </p>
@@ -132,7 +132,7 @@ const Header = () => {
               occupied territories and across the global diaspora
             </p>
             <Link href="/info" className="text-center md:text-left mt-4">
-              <button className="bg-gradient-to-r from-paliPink via-gray-400 to-paliGreen text-transparent bg-clip-text shadow-soft">
+              <button className="bg-gradient-to-r from-paliPink via-gray-400 to-paliGreen text-transparent bg-clip-text ">
                 Learn more...
               </button>
             </Link>
@@ -143,7 +143,7 @@ const Header = () => {
                 href="/pdf/PaliCoin-WhitePaper.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-4 py-2 text-white bg-gradient-to-r from-paliPink via-gray-400 to-paliGreen rounded-md shadow-lg hover:shadow-xl md:px-4 md:py-2 md:text-lg sm:px-3 sm:py-1 sm:text-sm xs:px-3 xs:py-1 xs:text-xs"
+                className="px-4 py-2 text-white bg-gradient-to-r from-paliPink via-gray-400 to-paliGreen rounded-md md:px-4 md:py-2 md:text-lg sm:px-3 sm:py-1 sm:text-sm xs:px-3 xs:py-1 xs:text-xs"
                 download
               >
                 Download Pali Coin (PDF)

@@ -439,8 +439,8 @@ const WhitepaperPart4 = () => {
           {/* Goal List */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-10">
             {goals.map((goal, index) => (
-              <div key={index} className="bg-paliPink p-6 shadow-lg rounded-lg">
-                <h3 className="text-xl font-semibold font-poiret-one text-center bg-gradient-to-r from-gray-600 via-gray-600 to-gray-900 text-transparent bg-clip-text shadow-soft mb-4">
+              <div key={index} className="bg-paliPink p-6 rounded-lg">
+                <h3 className="text-xl font-semibold font-poiret-one text-center bg-gradient-to-r from-gray-600 via-gray-600 to-gray-900 text-transparent bg-clip-text mb-4">
                   {goal.title}
                 </h3>
                 <p>{goal.description}</p>
@@ -449,6 +449,7 @@ const WhitepaperPart4 = () => {
           </div>
         </div>
       </section>
+
       <section className="my-4 px-4 ">
         <p className="text-left p-2 text-lg font-bold text-paliGreen">
           Conclusion
@@ -465,7 +466,7 @@ const WhitepaperPart4 = () => {
             href="/pdf/PaliCoin-WhitePaper.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-3 text-white bg-gradient-to-r from-paliPink via-gray-400 to-paliGreen rounded-md shadow-lg hover:shadow-xl  hover:from-paliPinkDark hover:to-pali-teal-dark"
+            className="px-6 py-3 text-white bg-gradient-to-r from-paliPink via-gray-400 to-paliGreen rounded-md  hover:from-paliPinkDark hover:to-pali-teal-dark"
             download
           >
             Download Pali Coin (PDF){" "}

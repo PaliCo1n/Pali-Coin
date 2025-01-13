@@ -8,7 +8,7 @@ const InfoPage = () => {
       <div className="flex flex-col items-center justify-center">
         {/* Title and Image Section */}
         <div className="flex items-center justify-center mb-4">
-          <p className="text-4xl font-semibold font-poiret-one text-center bg-gradient-to-r from-gray-400 via-gray-600 to-gray-900 text-transparent bg-clip-text shadow-soft">
+          <p className="text-4xl font-semibold font-poiret-one text-center bg-gradient-to-r from-gray-400 via-gray-600 to-gray-900 text-transparent bg-clip-text">
             About PALI Coin
           </p>
 
@@ -55,9 +55,9 @@ const InfoPage = () => {
           {goals.map((goal, index) => (
             <div
               key={index}
-              className="bg-transparent p-6 shadow-lg rounded-lg"
+              className="bg-transparent p-6 rounded-lg"
             >
-              <h3 className="text-xl font-semibold font-poiret-one text-center bg-gradient-to-r from-gray-600 via-gray-600 to-gray-900 text-transparent bg-clip-text shadow-soft mb-4">
+              <h3 className="text-xl font-semibold font-poiret-one text-center bg-gradient-to-r from-gray-600 via-gray-600 to-gray-900 text-transparent bg-clip-text mb-4">
                 {goal.title}
               </h3>
               <p>{goal.description}</p>
@@ -154,7 +154,7 @@ const InfoPage = () => {
           href="/pdf/PaliCoin-WhitePaper.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-6 py-3 text-white bg-gradient-to-r from-paliPink via-gray-400 to-paliGreen rounded-md shadow-lg hover:shadow-xl"
+          className="px-6 py-3 text-white bg-gradient-to-r from-paliPink via-gray-400 to-paliGreen rounded-md "
           download
         >
           Download Pali Coin (PDF){" "}

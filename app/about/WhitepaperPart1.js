@@ -4,7 +4,7 @@ const WhitepaperPart1 = () => {
   return (
     <div className="font-sans text-center p-6 bg-gray-50">
       {/* Heading */}{" "}
-      <h1 className="text-lg xs:text-sm xs:w-full md:text-xl xs:px-2 xs:py-2 font-bold inline-block min-w-[70px] max-w-[300px] justify-center items-center w-1/3 text-white bg-gradient-to-r from-paliPink via-gray-400 to-paliGreen rounded-md shadow-lg px-1 py-3">
+      <h1 className="text-lg xs:text-sm xs:w-full md:text-xl xs:px-2 xs:py-2 font-bold inline-block min-w-[70px] max-w-[300px] justify-center items-center w-1/3 text-white bg-gradient-to-r from-paliPink via-gray-400 to-paliGreen rounded-md  px-1 py-3">
         PALI Coin WhitePaper 📝
       </h1>
       {/* First Paragraph */}

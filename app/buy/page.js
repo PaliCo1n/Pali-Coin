@@ -9,7 +9,7 @@ const BuyPage = () => {
         <div className="max-w-4xl mx-auto">
           {/* Heading */}
           <div className="mb-8 text-center">
-            <h1 className="text-lg sm:text-4xl font-bold bg-gradient-to-r from-paliPink via-gray-400 to-paliGreen text-transparent bg-clip-text shadow-soft mb-4 font-poppins">
+            <h1 className="text-lg sm:text-4xl font-bold bg-gradient-to-r from-paliPink via-gray-400 to-paliGreen text-transparent bg-clip-text mb-4 font-poppins">
               How to Invest in PALI Coin
             </h1>
             <span className="text-gray-800">
@@ -27,7 +27,7 @@ const BuyPage = () => {
             <br></br>
           </div>
           <div className="mb-8 mt-8 text-center">
-            <h1 className="text-lg sm:text-4xl font-bold bg-gradient-to-r from-paliPink via-gray-400 to-paliGreen text-transparent bg-clip-text shadow-soft mb-4 font-poppins">
+            <h1 className="text-lg sm:text-4xl font-bold bg-gradient-to-r from-paliPink via-gray-400 to-paliGreen text-transparent bg-clip-text  mb-4 font-poppins">
               Get your PALI Coin from Presale now
             </h1>
           </div>{" "}
@@ -661,7 +661,7 @@ const BuyPage = () => {
           <p className="text-center p-2 text-gray-600 mb-5 mt-6">
             🔻 Buy / Sell / Swap / Invest in PALI Coin 🔻
           </p>
-          <div className="flex flex-wrap justify-center gap-2 bg-gradient-to-r from-paliPink to-pali-teal p-6 rounded-lg shadow-lg">
+          <div className="flex flex-wrap justify-center gap-2 bg-gradient-to-r from-paliPink to-pali-teal p-6 rounded-lg ">
             {[
               {
                 name: "SushiSwap",
@@ -696,7 +696,7 @@ const BuyPage = () => {
             ].map(({ name, href, title, icon }) => (
               <div
                 key={name}
-                className="rounded-lg shadow-lg hover:shadow-sm transition-shadow duration-300"
+                className="rounded-lg  duration-300"
               >
                 <a href={href} target="_blank" rel="noopener noreferrer">
                   <abbr title={title} className="no-underline">

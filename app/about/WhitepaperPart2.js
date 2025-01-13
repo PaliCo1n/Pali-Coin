@@ -19,7 +19,7 @@ const WhitepaperPart2 = () => {
           href="https://github.com/devMoAli"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-paliGreen underline hover:text-green-700 text-shadow-medium hover:font-semibold"
+          className="text-paliGreen underline hover:text-green-700  hover:font-semibold"
         >
           dev Mohamed Ali
         </a>{" "}
