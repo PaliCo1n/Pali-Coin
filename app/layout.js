@@ -37,6 +37,7 @@ export default function RootLayout({ children }) {
               property="og:image"
               content="ipfs://bafybeiathvy24em7gdmwlxhr2xe76h35ni7l7zeax2xeyrtsp23pcrvrum/palicoin.png"
             />
+            <link rel="manifest" href="/manifest.json" />
             <meta property="og:title" content="PALI Coin 🍉" />
             <meta
               property="og:description"
