@@ -3,22 +3,24 @@ const nextConfig = {
   async headers() {
     return [
       {
-        source: "/(.*)",
+        source: "/(.*)", // Apply to all routes
         headers: [
-          { key: "X-Content-Type-Options", value: "nosniff" },
-          { key: "X-Frame-Options", value: "DENY" },
+          // X-Frame-Options (allow iframe embedding from the same origin)
+          { key: "X-Frame-Options", value: "SAMEORIGIN" },
+
+          // Strict-Transport-Security (redirect HTTP to HTTPS)
           {
             key: "Strict-Transport-Security",
-            value: "max-age=63072000; includeSubDomains; preload",
+            value: "max-age=31536000; includeSubDomains",
           },
-          {
-            key: "Content-Security-Policy",
-            value: "default-src 'self'; img-src 'self' data:;",
-          },
+
+          // Referrer-Policy (disable sending referrer)
           { key: "Referrer-Policy", value: "no-referrer" },
+
+          // Permissions-Policy (disable sensitive features for now)
           {
             key: "Permissions-Policy",
-            value: "camera=(), microphone=(), geolocation=()",
+            value: "geolocation=(), microphone=(), camera=()",
           },
         ],
       },
@@ -27,3 +29,8 @@ const nextConfig = {
 };
 
 export default nextConfig;
+
+// /** @type {import('next').NextConfig} */
+// const nextConfig = {};
+
+// export default nextConfig;
