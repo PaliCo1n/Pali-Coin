@@ -1,21 +1,19 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "palicoin",
+  "short_name": "palicoin",
   "icons": [
     {
-      "src": "/https://www.palicoin.uk/web-app-manifest-192x192.png",
+   "src": "ipfs://bafkreifw3w3tpa6ayuw3n563sgdudoicorel65g3sy4gwuoio56gbvu65i/palicoin-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/https://www.palicoin.uk/web-app-manifest-512x512.png",
+      "src": "ipfs://bafkreid7juxusymp7lwcgmzyk5u63ezu3mkwntck7zqum4nk22jmlafvrm/palicoin-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
   "display": "standalone"
 }
