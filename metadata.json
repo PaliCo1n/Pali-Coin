@@ -1,0 +1,16 @@
+{
+  "name": "PALI Coin",
+  "symbol": "PALI",
+  "description": "Empowering Palestinians Financial Ecosystem Through Blockchain Worldwide",
+  "decimals": 18,
+  "supply": "100000000",
+  "contractAddress": "0xdf630b84f681c94f7cdbfb230479a0138692f264",
+  "network": "Polygon",
+  "website": "https://palicoin.uk",
+  "logo": "ipfs://bafybeiathvy24em7gdmwlxhr2xe76h35ni7l7zeax2xeyrtsp23pcrvrum/palicoin.png",
+  "socials": {
+    "twitter": "https://x.com/Pali_Coin",
+    "tiktok": "https://www.tiktok.com/@pali_coin",
+    "telegram": "https://t.me/Pali.Coin"
+  }
+}
