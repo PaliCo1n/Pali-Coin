@@ -22,7 +22,19 @@ const LandingPage = () => {
           property="og:description"
           content="PALI Coin is a decentralized digital currency built on the Polygon network."
         />
-        <meta property="og:image" content="path_to_image" />
+        <meta property="og:image" content="/favicon/icon.png" />
+
+        {/* <!-- Favicon for browsers --> */}
+        <link rel="icon" href="/favicon/favicon.ico" type="image/x-icon" />
+
+        {/* <!-- Scalable vector icon --> */}
+        <link rel="icon" href="/favicon/icon.svg" type="image/svg+xml" />
+
+        {/* <!-- Apple Touch Icon --> */}
+        <link rel="apple-touch-icon" href="/favicon/apple-icon.png" />
+
+        {/* <!-- General-purpose PNG Icon --> */}
+        <link rel="icon" sizes="192x192" href="/favicon/icon.png" />
       </Head>
       <div className="font-poppins text-center flex flex-col justify-between">
         {/* Header */}
