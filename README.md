@@ -62,8 +62,8 @@ Symbolize hope and collaboration across communities through the Palestinian toke
 
 ## 📄 Contact and Further Information  
 - **Website**: [www.palicoin.uk](https://www.palicoin.uk)  
-- **Email**: [dev.mohamed.ali1@gmail.com](mailto:dev.mohamed.ali1@gmail.com)  
-- **GitHub**: [PALI Coin Repository](https://github.com/devMoAli)  
+- **Email**: [palestinian.co1n@gmail.com](mailto:palestinian.co1n@gmail.com)  
+- **GitHub**: [PALI Coin Repository](https://github.com/PaliCo1n/Pali-Coin)  
 - **Social Media**: [TikTok @pali_coin](https://www.tiktok.com/@pali_coin)  
 
 ---
